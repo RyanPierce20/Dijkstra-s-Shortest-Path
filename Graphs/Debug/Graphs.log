@@ -1,0 +1,53 @@
+﻿Build started 3/8/2016 8:34:23 PM.
+     1>Project "C:\Users\test\Documents\Visual Studio 2013\Projects\Graphs\Graphs.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(81): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(69) : while compiling class template member function 'void Dijk<std::string,std::string>::Read(V,V)'
+                 with
+                 [
+                     V=std::string
+                 ]
+                 c:\users\test\documents\visual studio 2013\projects\graphs\main.cpp(42) : see reference to function template instantiation 'void Dijk<std::string,std::string>::Read(V,V)' being compiled
+                 with
+                 [
+                     V=std::string
+                 ]
+                 c:\users\test\documents\visual studio 2013\projects\graphs\main.cpp(40) : see reference to class template instantiation 'Dijk<std::string,std::string>' being compiled
+     1>c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(101): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(111): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(121): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(136): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(214): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(211) : while compiling class template member function 'int Dijk<std::string,std::string>::Smallest(void)'
+                 c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(141) : see reference to function template instantiation 'int Dijk<std::string,std::string>::Smallest(void)' being compiled
+                 c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(302) : while compiling class template member function 'void Dijk<std::string,std::string>::Input(void)'
+                 c:\users\test\documents\visual studio 2013\projects\graphs\main.cpp(41) : see reference to function template instantiation 'void Dijk<std::string,std::string>::Input(void)' being compiled
+     1>c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(219): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(168): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(163) : while compiling class template member function 'void Dijk<std::string,std::string>::Linked(int)'
+                 c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(142) : see reference to function template instantiation 'void Dijk<std::string,std::string>::Linked(int)' being compiled
+     1>c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(178): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(188): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(238): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(236) : while compiling class template member function 'void Dijk<std::string,std::string>::ShortestPath(V)'
+                 with
+                 [
+                     V=std::string
+                 ]
+                 c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(144) : see reference to function template instantiation 'void Dijk<std::string,std::string>::ShortestPath(V)' being compiled
+                 with
+                 [
+                     V=std::string
+                 ]
+     1>c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(265): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\test\documents\visual studio 2013\projects\graphs\dijk.h(272): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\test\Documents\Visual Studio 2013\Projects\Graphs\Debug\Graphs.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\test\Documents\Visual Studio 2013\Projects\Graphs\Debug\Graphs.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\test\Documents\Visual Studio 2013\Projects\Graphs\Debug\Graphs.lib" /MACHINE:X86 Debug\main.obj
+         Graphs.vcxproj -> C:\Users\test\Documents\Visual Studio 2013\Projects\Graphs\Debug\Graphs.exe
+     1>Done Building Project "C:\Users\test\Documents\Visual Studio 2013\Projects\Graphs\Graphs.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.67
